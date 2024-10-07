@@ -6,6 +6,7 @@ import Navbar3 from './Navbar3';
 import Navbar4 from './Navbar4';
 
 function Header() {
+    
 
     // function Domains() {
     //     // style.display = block
@@ -102,6 +103,12 @@ function Header() {
 
     //     }
     // }
+    let setProgress = () =>{
+        console.log("Clicked")
+    }
+
+
+
     return (
         <>
             <div className='main_bg_black'>
@@ -114,9 +121,14 @@ function Header() {
 
 
 
-                        <button className="navbar-toggler tw-text-white bg-white" type="button" data-bs-toggle="collapse" data-bs-target="/navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        {/* <button  className="navbar-toggler tw-text-white bg-white" type="button" data-bs-toggle="collapse" data-bs-target="/navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
+                        </button> */}
+                        <button props='setProgress'>
+                            Click me
                         </button>
+
+
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
 
@@ -173,7 +185,7 @@ function Header() {
 
             </div >
 
-            <Navbars  />
+            <Navbars />
             <Navbar2 Name="Website Builder" Fname="online Store" Sname="All Website Options" Tname="Web Hosting" Foname="WordPress Hosting" Finame="VPS Hosting" Siname="Tools for Web Professionals" ti="WEBSITE" tit="HOSTING" tite="GODADDY PRO" />
 
 

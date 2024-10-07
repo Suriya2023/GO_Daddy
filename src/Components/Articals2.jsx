@@ -1,11 +1,11 @@
 import React from 'react'
-import one from './Imgaes/one.webp'
-import two from './Imgaes/two.webp'
-
-function Articals() {
+import one1 from './Imgaes/dady1.webp'
+import two2 from './Imgaes/dad2.webp'
+function Articals2() {
   return (
-    <>
-      <div id='donmainhide' className='onecontainer'>
+          <>
+          <div id='donmainhidetwo'>
+      <div  className='onecontainer'>
         <div className="one1">
           <div className="one2">
             <div>
@@ -18,13 +18,12 @@ function Articals() {
                 </button>
               </div>
             </div>
-            <img src={one} alt="one" className='twwauto' />
-            <img src={one} alt="one" className='twwauto' />
+            <img src={one1} alt="one" className='twwauto' />
 
           </div>
 
           {/* \end{code} */}
-          <div id='donmainhide' className="one2">
+          <div  className="one2">
             <div className='thisptage' id='thisptage'>
 
               <h1 className='DomainArticals'>.Co for ₹ 999.00/1st</h1>
@@ -36,14 +35,15 @@ function Articals() {
                 Search Domains
               </button>
             </div>
-            <img src={two} alt="one" className='twwauto' />
+            <img src={two2} alt="one" className='twwauto' />
 
 
           </div>
         </div>
       </div>
+      </div>
     </>
   )
 }
 
-export default Articals
+export default Articals2

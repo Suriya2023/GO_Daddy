@@ -708,8 +708,29 @@
   height: 100%;
 }
 
+#ss22{
+  display: block;
+}
 
+#ss223{
+  display: none;
+}
+
+#ss224{
+  display: none;
+}
+
+
+#donmainhide{
+  display: block;
+}
+
+#donmainhidetwo{
+  display: none;
+}
 .footereee {
+  max-width: 1320px;
+  margin: 0 auto;
   background-color: #000;
   color: #fff;
   padding: 20px 10px;

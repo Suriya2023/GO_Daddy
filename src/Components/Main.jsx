@@ -1,6 +1,34 @@
 import React from 'react'
+import Articals from './Articals';
+import Articals2 from './Articals2';
 
 function Main() {
+
+    let hideandshow = () =>{
+        if(document.getElementById('donmainhide').style.display === 'none'){
+            document.getElementById('donmainhide').style.display = 'block';
+
+            document.getElementById('donmainhidetwo').style.display = 'none';
+
+
+        }
+        else{
+            document.getElementById('donmainhide').style.display = 'none';
+        }
+    }
+
+    let hideandshow2 = () =>{
+        if(document.getElementById('donmainhidetwo').style.display === 'none'){
+            document.getElementById('donmainhidetwo').style.display = 'block';
+            document.getElementById('donmainhide').style.display = 'none';
+
+            
+
+        }
+        else{
+            document.getElementById('donmainhidetwo').style.display = 'none';
+        }
+    }
     return (
         <div>
 
@@ -47,12 +75,20 @@ function Main() {
                 <div id='find' className="tw-text-4xl tw-font-bold tw-text-gray-900">What's first up for your business?</div>
                 <br />
                 <div id='tw_flex'>
-                    <div><button id='bdbtn' className=' tw-rounded-full ' >Domains</button></div>
+                    <div><button onClick={hideandshow} id='bdbtn' className=' tw-rounded-full ' >Domains</button></div>
                     <div><button id='bdbtn' className=' tw-rounded-full '>Recommended</button></div>
-                    <div><button id='bdbtn' className=' tw-rounded-full '>WordPress And Security</button></div>
+                    <div><button onClick={hideandshow2} id='bdbtn' className=' tw-rounded-full '>WordPress And Security</button></div>
                 </div>
             </div>
+
+            <Articals  />
+            <br />
+            <Articals2 />
         </div>
+
+
+
+
     )
 }
 

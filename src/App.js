@@ -1,5 +1,5 @@
 import './App.css';
-import Articals from './Components/Articals';
+
 import Business from './Components/Business';
 import Custimer from './Components/Custimer';
 
@@ -11,10 +11,10 @@ import Marketing from './Components/Marketing';
 function App() {
   return (
     <>
-      <Header />
+      <Header  />
       <Input />
       <Main />
-      <Articals />
+   
       <Marketing />
       <Business />
       <Custimer />
