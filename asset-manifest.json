@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/Go_Daddy/static/css/main.76d3f0ce.css",
-    "main.js": "/Go_Daddy/static/js/main.db9d9618.js",
+    "main.css": "/Go_Daddy/static/css/main.52ab9556.css",
+    "main.js": "/Go_Daddy/static/js/main.f3f5c7fe.js",
     "static/js/453.807b4194.chunk.js": "/Go_Daddy/static/js/453.807b4194.chunk.js",
     "static/media/s3.png": "/Go_Daddy/static/media/s3.32be4cd797a8ba1294d2.png",
     "static/media/s2.png": "/Go_Daddy/static/media/s2.d14e63dd8ec7097a82cc.png",
+    "static/media/dady1.webp": "/Go_Daddy/static/media/dady1.406bfc00a7c5e0b9ea29.webp",
+    "static/media/dad2.webp": "/Go_Daddy/static/media/dad2.b32d823f3e3f0294fed7.webp",
     "static/media/one.webp": "/Go_Daddy/static/media/one.b80fed2b00bcfc12d780.webp",
     "static/media/two.webp": "/Go_Daddy/static/media/two.250f9055e444c2a610c8.webp",
     "index.html": "/Go_Daddy/index.html",
-    "main.76d3f0ce.css.map": "/Go_Daddy/static/css/main.76d3f0ce.css.map",
-    "main.db9d9618.js.map": "/Go_Daddy/static/js/main.db9d9618.js.map",
+    "main.52ab9556.css.map": "/Go_Daddy/static/css/main.52ab9556.css.map",
+    "main.f3f5c7fe.js.map": "/Go_Daddy/static/js/main.f3f5c7fe.js.map",
     "453.807b4194.chunk.js.map": "/Go_Daddy/static/js/453.807b4194.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.76d3f0ce.css",
-    "static/js/main.db9d9618.js"
+    "static/css/main.52ab9556.css",
+    "static/js/main.f3f5c7fe.js"
   ]
 }
